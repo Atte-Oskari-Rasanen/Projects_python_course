@@ -1,15 +1,8 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 27 13:14:22 2020
-
-@author: ortis
-"""
 
 #!/usr/bin/python3
 '''
-    Title: similarity.py
     Date: 2020-10-27
-    Author: Julia Ortis Sunyer
     Description:
         This program will take a user input and output either the full matrix, in case
         the user input is ALL, or the best match to the name given in the input.
