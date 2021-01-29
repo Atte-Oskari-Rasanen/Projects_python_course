@@ -1,6 +1,6 @@
 '''
 Title: amino_count.py
-Date: 2017-10-17
+Date: 2020-10-28
 Author: Atte Oskari Räsänen
 
 Description
