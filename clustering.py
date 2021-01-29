@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 """
-    Title: cluster.py
-    Date: 2020-10-27
-    Author: Mattis Knulst
     Description:
         This program will parse a file with a similarity matrix in squareform, then generate a dendrogram from it
         that can be interpreted as a phylogenetic tree.
@@ -12,16 +9,6 @@
         make_tree(): will take a file, send it to matrix_parser() and then generate a tree using dendrogram
         and output the tree as a file
 
-    List of non-standard modules:
-        Pyplot from matplotlib
-        Numpy
-        Dendrogram, linkage and pdist from scipy
-    Procedure:
-        The 4 input files are located in a list that is first parsed to create numpy arrays from the files that can
-        then be tested for linkage and used to generate a tree. Thus 4 trees are created.
-
-    Usage:
-        ./cluster.py
 """
 import matplotlib.pyplot as plt
 import numpy as np
