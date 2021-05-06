@@ -112,9 +112,10 @@ JackStrawPlot(pbmc, dims = 1:15)
 
 # dims <- seq[from = args[1], to = args[2], by=args[3]]
 # res <- seq[from = args[4], to = args[5], by=args[6]]
-
-dims <- seq[from = 10, to = 40, by=5]
-res <- seq[from = 0.5, to = 3, by=0.5]
+disMax <- 40
+resMax <- 3
+dims <- dimsMax[seq(10, 40, 5)]
+res <- resMax[seq(0.5,3,0.5)]
 
 source('do_scatter.R')
 source('RunHarmony.R')
